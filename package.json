@@ -2,7 +2,7 @@
     "name": "mdtasks",
     "displayName": "MDTasks",
     "description": "Task management in Markdown format",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": {
         "name": "Nobuhito SATO",
         "email": "nobuhito.sato@gmail.com",
