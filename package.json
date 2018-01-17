@@ -1,0 +1,90 @@
+{
+    "name": "mdtasks",
+    "displayName": "MDTasks",
+    "description": "Task management in Markdown format",
+    "version": "0.0.9",
+    "author": {
+        "name": "Nobuhito SATO",
+        "email": "nobuhito.sato@gmail.com",
+        "url": "https://bulkus.net/"
+    },
+    "publisher": "nobuhito",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "repository": {
+        "url": "https://github.com/nobuhito/vscode.mdtasks"
+    },
+    "activationEvents": [
+        "onLanguage:markdown",
+        "onCommand:extension.showList",
+        "onCommand:extension.insertDate"
+    ],
+    "license": "SEE LICENSE IN LICENSE",
+    "icon": "icon.png",
+    "main": "./src/extension",
+    "contributes": {
+        "keybindings": [
+            {
+                "command": "extension.insertDate",
+                "key": "ctrl+, d"
+            }
+        ],
+        "configuration": [
+            {
+                "type": "object",
+                "title": "MDTakss configuration",
+                "properties": {
+                    "mdtasks.colorOfToday": {
+                        "type": "string",
+                        "default": "#f8e58c",
+                        "description": "BackgroundColor of today's tasks"
+                    },
+                    "mdtasks.colorOfTomorrow": {
+                        "type": "string",
+                        "default": "#bbc8e6",
+                        "description": "BackgroundColor of tomorrow tasks"
+                    },
+                    "mdtasks.colorOfPastday": {
+                        "type": "string",
+                        "default": "#f0908d",
+                        "description": "BackgroundColor of pastday's tasks"
+                    },
+                    "mdtasks.colorOfThisWeek": {
+                        "type": "string",
+                        "default": "#badcad",
+                        "description": "BackgroundColor of this week's tasks"
+                    }
+                }
+            }
+        ],
+        "commands": [
+            {
+                "command": "extension.showList",
+                "title": "MDTasks: Show tasks list"
+            },
+            {
+                "command": "extension.insertDate",
+                "title": "MDTasks: Insert date"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.0",
+        "@types/mocha": "^2.2.42"
+    },
+    "extensionDependencies": [
+        "nobuhito.actionlock"
+    ]
+}
