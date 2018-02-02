@@ -49,4 +49,4 @@ colorOfThisWeek | BGColor of this week's tasks | #badcad | [薄萌葱][]
 
 ## Release Notes
 
-See [Changelog](https://github.com/nobuhito/vscode.,dtasls/blob/master/CHANGELOG.md).
+See [Changelog](https://github.com/nobuhito/vscode.mdtasks/blob/master/CHANGELOG.md).
