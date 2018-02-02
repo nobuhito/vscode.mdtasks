@@ -1,6 +1,15 @@
+![version](https://vsmarketplacebadge.apphb.com/version-short/nobuhito.mdtasks.svg)
+![installs](https://vsmarketplacebadge.apphb.com/installs-short/nobuhito.mdtasks.svg)
+![rating](https://vsmarketplacebadge.apphb.com/rating-short/nobuhito.mdtasks.svg)
+![trendDaily](https://vsmarketplacebadge.apphb.com/trending-daily/nobuhito.mdtasks.svg)
+![trendWeekly](https://vsmarketplacebadge.apphb.com/trending-weekly/nobuhito.mdtasks.svg)
+![trandMonthly](https://vsmarketplacebadge.apphb.com/trending-monthly/nobuhito.mdtasks.svg)
+
 # MDTasks - Extension for VS Code
 
 Task management in Markdown format.
+
+[日本語によるBlog記事はこちら](https://blog.bulkus.net/post/mdtasks_for_vscode/)
 
 ## Features
 
