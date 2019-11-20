@@ -22,7 +22,7 @@ Task management in Markdown format.
 
 ## Commands
 
-- showListShow tasks list :  Show task list sorted by date.
+- Show tasks list :  Show task list sorted by date.
 - Insert date (`Ctrl+, d`) :  Insert today's date.
 - toggleTask : Toggle Done / Undone of the task.
 - Execute ActionLock (`Enter` on underscored word) : see [ActionLock](https://marketplace.visualstudio.com/items?itemName=nobuhito.actionlock).
